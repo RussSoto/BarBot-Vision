@@ -1,3 +1,26 @@
+"""
+Embedded Vision System - Raspberry Pi
+
+Version: V1.0
+
+Description
+-----------
+Lightweight embedded computer vision system designed to run on resource-constrained
+hardware such as the Raspberry Pi. The system detects motion in the camera feed and
+performs face detection when activity is present.
+
+Features
+--------
+- Motion detection using frame differencing
+- Face detection using OpenCV Haar cascades
+- Event-driven processing to reduce unnecessary computation
+- Text-to-speech alerts using pyttsx3
+
+Author
+------
+Russell Soto
+"""
+
 from picamera2 import Picamera2
 import cv2
 import time
