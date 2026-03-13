@@ -1,4 +1,5 @@
 #Embedded Vision System (Raspberry Pi)
+
 Lightweight embedded computer vision system for Raspberry Pi featuring motion detection, face detection, and real-time feedback.
 Originally developed as the vision component for a robotics concept, this project evolved into a general-purpose embedded computer vision platform designed to run efficiently on resource-constrained hardware.
 The system demonstrates how a practical computer vision pipeline can detect motion, identify faces, and provide interactive feedback while minimizing unnecessary computation.
@@ -6,6 +7,7 @@ The system demonstrates how a practical computer vision pipeline can detect moti
 ____________________________________________________________________________
 
 ##Features
+
 • Real-time camera streaming
 • Motion detection using frame differencing
 • Face detection using OpenCV Haar cascades
@@ -17,6 +19,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 
 ##System Architecture
+
 Camera Frame
 ↓
 Frame Processing (grayscale + blur)
@@ -35,6 +38,7 @@ Motion gating ensures that expensive operations like face detection only run whe
 ____________________________________________________________________________
 
 ##Tech Stack
+
 Python
 OpenCV
 NumPy
@@ -45,12 +49,14 @@ PiCamera2
 ____________________________________________________________________________
 
 ##Hardware
+
 Raspberry Pi
 Camera Module (PiCamera2)
 
 ____________________________________________________________________________
 
 ##Installation
+
 Clone the repository:
 git clone https://github.com/RussSoto/BarBot-Vision.git
 cd BarBot-Vision
@@ -61,6 +67,7 @@ pip install -r requirements.txt
 ____________________________________________________________________________
 
 ##Running the System
+
 python vision_system.py
 
 The program will open the camera feed and monitor for motion and faces in real time.
@@ -68,6 +75,7 @@ The program will open the camera feed and monitor for motion and faces in real t
 ____________________________________________________________________________
 
 ##Repository Structure
+
 vision_system.py
 Main application script that runs the motion detection and face detection pipeline.
 
@@ -83,6 +91,7 @@ Project documentation.
 ____________________________________________________________________________
 
 ##Project Roadmap
+
 Version 1 — Motion + Face Detection
 Current stable version.
 • Motion detection
@@ -104,6 +113,7 @@ Version 3 — Tracking & Optimization
 ____________________________________________________________________________
 
 ##Engineering Focus
+
 This project focuses on building a practical embedded vision system, emphasizing:
 • Real-time video processing
 • Efficient computer vision pipelines
@@ -114,6 +124,7 @@ The goal is not to train machine learning models from scratch but to build relia
 ____________________________________________________________________________
 
 ##Potential Applications
+
 • Robotics vision systems
 • Smart home monitoring
 • Security systems
@@ -123,6 +134,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 
 ##License
+
 MIT License
 
 Built by Russell Soto
