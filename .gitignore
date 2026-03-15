@@ -1,0 +1,10 @@
+#dataset
+face_dataset/
+
+#test images
+*.jpg
+*.png
+!docs/vision_system_v2_architecture_diagram.png
+#python cache
+__pycache__/
+*.pyc
