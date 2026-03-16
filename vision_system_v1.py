@@ -15,10 +15,6 @@ Features
 - Face detection using OpenCV Haar cascades
 - Event-driven processing to reduce unnecessary computation
 - Text-to-speech alerts using pyttsx3
-
-Author
-------
-Russell Soto
 """
 
 from picamera2 import Picamera2

@@ -13,14 +13,15 @@ Features
 --------
 - Motion detection using frame differencing
 - Face detection using OpenCV Haar cascades
-- Face recognition using 128D embeddings from face_recognition / dlib
+- Face recognition using 128D em
+
+
+
+
+beddings from face_recognition / dlib
 - Dataset auto-loading at startup
 - Runtime enrollment of unknown faces
 - Text-to-speech alerts using pyttsx3
-
-Author
-------
-Russell Soto
 """
 
 from picamera2 import Picamera2
