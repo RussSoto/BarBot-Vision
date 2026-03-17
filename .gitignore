@@ -5,6 +5,8 @@ face_dataset/
 *.jpg
 *.png
 !docs/vision_system_v2_architecture_diagram.png
+!docs/vision-test.jpg
+
 #python cache
 __pycache__/
 *.pyc
