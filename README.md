@@ -6,6 +6,11 @@ Originally developed as the vision component for a robotics concept, this projec
 
 The system demonstrates how a practical computer vision pipeline can detect motion, detect faces, recognize known individuals, and provide interactive feedback while minimizing unnecessary computation.
 
+### Face Detection & Recognition in Action
+![Face Recognition](docs/vision-test.jpg)
+
+Real-time face detection and recognition running on Raspberry Pi.
+The system identifies known individuals using facial emeddings and displays labedled bounding box directly on video feed.
 ____________________________________________________________________________
 
 # Features
